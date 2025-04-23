@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Constitution of India</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .gradient-text {
+      background: linear-gradient(to right, #3b82f6, #9333ea);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .card-3d {
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .card-3d:hover {
+      transform: perspective(1000px) rotateY(10deg) scale(1.05);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-r from-blue-900 to-purple-900 text-white min-h-screen flex flex-col items-center justify-start p-6 space-y-10">
+
+  <!-- Top Text Section -->
+  <div class="text-center space-y-4">
+    <div class="bg-gradient-to-r from-blue-500 to-purple-500 text-black font-bold py-2 px-4 rounded-full inline-block">
+      Great Books
+    </div>
+    <p class="text-3xl md:text-4xl font-bold">
+      To become an enlightened citizen of this great <br class="hidden md:block"> country;
+    </p>
+    <p class="text-2xl md:text-3xl font-semibold">
+      Read and keep a copy with you forever.
+    </p>
+    <div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold py-4 px-8 rounded-xl inline-block space-y-1">
+      <p class="text-2xl md:text-4xl">Get your </p>
+      <p class="text-2xl md:text-4xl">free eBook</p>
+      <p class="text-2xl md:text-4xl">copy of</p>
+    </div>
+  </div>
+
+  <!-- Card Section -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-7xl mt-8">
+    <!-- Card Template -->
+    <div class="bg-white bg-opacity-10 p-6 rounded-xl shadow-lg text-center card-3d">
+      <p class="text-2xl md:text-3xl font-bold gradient-text mb-6">THE CONSTITUTION OF INDIA</p>
+      <img src="constitutio-of-india.jpeg" alt="Constitution Book" class="w-32 md:w-40 h-auto mx-auto mb-4 rounded-lg shadow-md" />
+      <a href="./login-page.html">
+        <button class="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-600 hover:to-blue-600 transition text-white font-bold py-2 px-6 rounded-full">
+          Download Now
+        </button>
+      </a>
+    </div>
+
+    <!-- Duplicate as needed -->
+    <div class="bg-white bg-opacity-10 p-6 rounded-xl shadow-lg text-center card-3d">
+      <p class="text-2xl md:text-3xl font-bold gradient-text mb-6">BHIMRAO <br> RAMJI <br>AMBEDKAR</p>
+      <img src="dr.babasaheb.jpeg" alt="Constitution Book" class="w-32 md:w-40 h-auto mx-auto mb-4 rounded-lg shadow-md" />
+      <a href="./sec-login.html">
+        <button class="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-600 hover:to-blue-600 transition text-white font-bold py-2 px-6 rounded-full">
+          Download Now
+        </button>
+      </a>
+    </div>
+
+    <div class="bg-white bg-opacity-10 p-6 rounded-xl shadow-lg text-center card-3d">
+      <p class="text-2xl md:text-3xl font-bold gradient-text mb-6">THE INDIAN STOCK MARKET</p>
+      <img src="stok-market.webp" alt="Constitution Book" class="w-32 md:w-40 h-auto mx-auto mb-4 rounded-lg shadow-md" />
+      <a href="./market.html">
+        <button class="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-600 hover:to-blue-600 transition text-white font-bold py-2 px-6 rounded-full">
+          Download Now
+        </button>
+      </a>
+    </div>
+
+    <div class="bg-white bg-opacity-10 p-6 rounded-xl shadow-lg text-center card-3d">
+      <p class="text-2xl md:text-3xl font-bold gradient-text mb-6">TO START YOUR OWN BUSINESS</p>
+      <img src="business.webp" alt="Constitution Book" class="w-32 md:w-40 h-auto mx-auto mb-4 rounded-lg shadow-md" />
+      <a href="./business.html">
+        <button class="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-600 hover:to-blue-600 transition text-white font-bold py-2 px-6 rounded-full">
+          Download Now
+        </button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
